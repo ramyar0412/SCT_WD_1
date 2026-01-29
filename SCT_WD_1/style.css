@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    transition: 0.3s;
+}
+
+#navbar.scrolled {
+    background-color: #ff4d30;
+}
+
+/* menu links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* home */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092") center/cover;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+}
+
+/* menu section */
+.menu-section {
+    padding: 100px 40px;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+.menu-card {
+    width: 220px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.1);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+/* special section */
+.special-section {
+    padding: 100px 40px;
+    background: #fff2e6;
+    text-align: center;
+}
+
+.special-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.special-card {
+    width: 240px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.1);
+}
+
+.special-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* contact */
+.contact-section {
+    padding: 100px 40px;
+    background: #222;
+    color: white;
+    text-align: center;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 240px;
+    margin: 10px;
+    padding: 8px;
+}
+
+.contact-section button {
+    padding: 8px 20px;
+    background: #ff4d30;
+    border: none;
+    color: white;
+}
+
+/* mobile view */
+@media (max-width: 768px) {
+    .menu-items,
+    .special-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
