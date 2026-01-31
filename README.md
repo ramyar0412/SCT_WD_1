@@ -106,7 +106,7 @@ Through this task, the following skills were practiced:
 ## Author
 **Ramya R**  
 Email: rramyareddy0220@gmail.com   
-Linkedin: www.linkedin.com/in/ramya-reddy-5262b03a9   
+Linkedin: www.linkedin.com/in/ramya-r-5262b03a9   
 
 ---
 
