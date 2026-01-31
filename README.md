@@ -104,7 +104,9 @@ Through this task, the following skills were practiced:
 ---
 
 ## Author
-**Ramya R**
+**Ramya R**  
+Email: rramyareddy0220@gmail.com   
+Linkedin: www.linkedin.com/in/ramya-reddy-5262b03a9   
 
 ---
 
@@ -114,9 +116,20 @@ This project was developed as part of an internship assignment to strengthen fro
 ---
 
 ## Project Structure
-food-website/
-│── index.html
-│── style.css
-│── script.js
+food-website/  
+── index.html  
+── style.css  
+── script.js  
+── readme.md  
+
+
+---
+
+## Project Demonstration link
+
+https://ramyar0412.github.io/SCT_WD_1/SCT_WD_1/
+
+
+
 
 
